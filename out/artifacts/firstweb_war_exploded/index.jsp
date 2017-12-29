@@ -11,6 +11,7 @@
     <title>第一个web项目</title>
   </head>
   <body>
+    <%-- 上传和下载 --%>
     <form action="http://localhost:80/upload" method="POST" enctype="multipart/form-data">
       <p>单文件上传：</p>
       <input type="file" name="file"/>
@@ -24,5 +25,7 @@
       <p><input type="submit" value="上传" /></p>
     </form>
     <a href="http://localhost:80/download">下载</a>
+    <%-- 上传和下载 --%>
+
   </body>
 </html>
