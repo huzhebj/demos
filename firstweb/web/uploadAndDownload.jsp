@@ -25,6 +25,12 @@
       <p><input type="submit" value="上传" /></p>
     </form>
     <a href="http://localhost:80/download">下载</a>
+    <%--<a href="http://localhost:80/download2">下载2</a>--%>
+    <form action="http://localhost:80/download2" method="POST">
+      <p>资源文件路径：<input type="text" name="url" /></p>
+      <p>下载后文件名：<input type="text" name="fileName" /></p>
+      <p><input type="submit" value="下载2" /></p>
+    </form>
     <%-- 上传和下载 --%>
 
   </body>
